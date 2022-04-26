@@ -1,0 +1,40 @@
+html {
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+form {
+    border: 3px solid red;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 700px;
+    background-color: orange;
+    border-radius: 15px;
+}
+
+button {
+    float: right;
+    width: 45%;
+    margin-right: 5%;
+    height: 30px;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+.field input,
+.field label {
+    display: inline-block;
+    width: 45%;
+    text-align:left;
+}
+
+.field label {
+    font-weight: bold; }
+.field input {
+    border: 2px solid grey;
+    height: 30px; }
